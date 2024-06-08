@@ -296,6 +296,9 @@ git:
   # Command used to display git log of all branches in the main window
   allBranchesLogCmd: git log --graph --all --color=always --abbrev-commit --decorate --date=relative  --pretty=medium
 
+  # a list of your favorite log commands (pressing 'a' in the status panel will cycle between them)
+  allBranchesLogCmds: []
+
   # If true, do not spawn a separate process when using GPG
   overrideGpg: false
 

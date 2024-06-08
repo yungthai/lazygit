@@ -273,6 +273,7 @@ var tests = []*components.IntegrationTest{
 	status.ClickToFocus,
 	status.ClickWorkingTreeStateToOpenRebaseOptionsMenu,
 	status.ShowDivergenceFromBaseBranch,
+	status.LogCmd,
 	submodule.Add,
 	submodule.Enter,
 	submodule.EnterNested,
